@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width= , initial-scale=1.0">
+    <title>Restaurant Reviews</title>
+    <!-- fontawesome link ======================================================================================= -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <!-- fontawesome link ======================================================================================= -->
+    <!-- custom css ===================================================================================== -->
+    <link rel="stylesheet" href="style.css">
+     <!-- custom css ===================================================================================== -->
+  
+</head>
+<body>
+  <!-- header start -->
+     <header>
+           <h1>Restaurant Reviews</h1>
+           <ul class="nav">
+            <li class="nav-link"><a href="index.html">Home</a></li>
+            <li class="nav-link"><a href="about.html">About</a></li>
+            <li class="nav-link"><a href="add-reviews.html">Add Reviews</a></li>
+           </ul>
+     </header>
+     <!-- header end -->
+     <!-- main body start -->
+     <main>
+        <h1>Add Reviews</h1>
+        <br>
+        <form method="post" action="">
+              <p>Name : <input type="text" name="name"></p>
+              <br>
+              <p>Restaurant : 
+                <select id="restyle" name="restaurant-name">
+                    <option>Choose One....</option>
+                    <option>Geek Home</option>
+                    <option>Main Street Cafe</option>
+                </select>
+              </p>
+              <br>
+              <p>Date Of Visit : <input type="date" name="joining-date"></p>
+              <br>
+              <p>Rating : <input type="number" name="rating"></p>
+              <br>
+             <p>Detail : <textarea name="detail"></textarea></p> 
+             <br>
+             <input type="submit" value="submit">
+        </form>
+     </main>
+     <!-- main body end -->
+     <!-- footer start -->
+     <footer>
+        <p><strong>&copy; 2023 Restaurant Reviews </strong></p>
+     </footer>
+</body>
+</html>
